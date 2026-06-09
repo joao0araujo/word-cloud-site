@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
+import './globals.css'
+
 
 export const metadata: Metadata = {
-  title: 'Em uma palavra',
-  description: 'O que significou pra você?',
+  title: 'Word Cloud',
+  description: 'Em uma palavra, o que significou pra você?',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
